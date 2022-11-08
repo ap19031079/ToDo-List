@@ -61,9 +61,5 @@ export default class Model {
     return {...todo};
   }
 
-  removeTodo(id) {
-    const index = this.findTodo(id);
-    this.todos.splice(index, 1);  
-    this.save();
-  }
+
 }
